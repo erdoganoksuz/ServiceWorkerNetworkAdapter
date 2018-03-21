@@ -9,7 +9,7 @@
     <h1 id="text">Heyy</h1>
     <button onclick="getData()">GetData</button>
     <script>
-        // Service Worker code
+
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./sw.js').then((registration) => {
                 return navigator.serviceWorker.ready;

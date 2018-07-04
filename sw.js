@@ -9,7 +9,7 @@ self.addEventListener('fetch', function (event) {
       }
     };
 
-    var response = new Response('{text:"Güven kontrole mani degildir - B.Kahtalioglu"}', init);
+    var response = new Response('{text:"Hi there"}', init);
     event.respondWith(response);
   }
 });
